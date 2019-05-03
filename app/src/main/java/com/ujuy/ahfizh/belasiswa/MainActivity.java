@@ -32,5 +32,4 @@ public class MainActivity extends AppCompatActivity {
         b = (ImageView)findViewById(R.id.logoBelasiswa);
         overridePendingTransition(R.anim.fadein,R.anim.fadeout);
     }
-
 }
