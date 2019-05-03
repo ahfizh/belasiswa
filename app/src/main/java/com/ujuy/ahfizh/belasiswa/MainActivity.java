@@ -8,6 +8,7 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
     // ini untuk splashscreen
+    // konyon text
     private int time=3000;
 
     ImageView b;
