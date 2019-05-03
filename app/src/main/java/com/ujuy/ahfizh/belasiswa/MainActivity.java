@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
+    // ini untuk splashscreen
     private int time=3000;
 
     ImageView b;
