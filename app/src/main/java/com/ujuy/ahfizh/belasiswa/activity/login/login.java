@@ -1,7 +1,9 @@
-package com.ujuy.ahfizh.belasiswa;
+package com.ujuy.ahfizh.belasiswa.activity.login;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.ujuy.ahfizh.belasiswa.R;
 
 public class login extends AppCompatActivity {
 

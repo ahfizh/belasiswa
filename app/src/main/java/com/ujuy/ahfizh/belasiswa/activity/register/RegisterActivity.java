@@ -11,7 +11,7 @@ import com.ujuy.ahfizh.belasiswa.R;
 
 public class RegisterActivity extends AppCompatActivity {
 
-    private EditText username, password, confirmPass;
+    private EditText username, password, email;
     private Button register;
 
     @Override
@@ -19,10 +19,10 @@ public class RegisterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-        username = (EditText) findViewById(R.id.edUsername);
-        password = (EditText) findViewById(R.id.edPassword);
-        confirmPass = (EditText) findViewById(R.id.edConfirmPassword);
-        register = (Button) findViewById(R.id.btnRegister);
+        username = (EditText) findViewById(R.id.edtUsername);
+        password = (EditText) findViewById(R.id.edtPass);
+        email = (EditText) findViewById(R.id.edtEmail);
+        register = (Button) findViewById(R.id.btnDaftarPage);
 
         onClickRegister();
     }

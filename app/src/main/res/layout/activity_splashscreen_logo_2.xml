@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Splashscreen_logo_2"
-    android:background="@drawable/Splashscreen3_1"
+    tools:context=".activity.splash.Splashscreen_logo_2"
+    android:background="@drawable/splashscreen3_1"
     >
     <LinearLayout
         android:layout_width="match_parent"
