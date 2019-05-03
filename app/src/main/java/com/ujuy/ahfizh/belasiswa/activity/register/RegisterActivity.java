@@ -1,4 +1,4 @@
-package com.ujuy.ahfizh.belasiswa.activity;
+package com.ujuy.ahfizh.belasiswa.activity.register;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
