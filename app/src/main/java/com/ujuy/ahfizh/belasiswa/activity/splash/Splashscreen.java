@@ -9,9 +9,13 @@ import android.widget.ImageView;
 import com.ujuy.ahfizh.belasiswa.R;
 import com.ujuy.ahfizh.belasiswa.activity.intro.Splashscreen_logo;
 
+
 public class Splashscreen extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
+
     // ini untuk splashscreen
     // konyon text
+
     private int time=3000;
 
     ImageView b;
@@ -35,4 +39,4 @@ public class Splashscreen extends AppCompatActivity {
         b = (ImageView)findViewById(R.id.logoBelasiswa);
         overridePendingTransition(R.anim.fadein,R.anim.fadeout);
     }
-}
+}}
