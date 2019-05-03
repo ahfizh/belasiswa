@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splashscreen_logo"
+    android:background="@drawable/splashscreen2_1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal"
+        android:gravity="right">
+
+        <Button
+            android:layout_width="95dp"
+            android:layout_height="42dp"
+            android:layout_marginRight="5dp"
+            android:text="Lewati"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:typeface="sans"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:background="@drawable/lonjong_orange_border" />
+
+    </LinearLayout>
+
+</RelativeLayout>

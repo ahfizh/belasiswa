@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginSign">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/spalshscreenloginsign"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btnMasukWelcome"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lonjong"
+            android:text="Masuk"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:layout_marginTop="450dp"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:id="@+id/btnDaftarWelcome"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lonjong_border"
+            android:text="Daftar"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:textColor="#3B8B92"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageButton
+            android:id="@+id/GoogleICON"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:background="@drawable/google_icon"
+            android:layout_marginTop="270dp"
+            android:layout_gravity="center" />
+        <ImageButton
+            android:id="@+id/GoogleICON"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:background="@drawable/fb_icon"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="270dp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+</RelativeLayout>
