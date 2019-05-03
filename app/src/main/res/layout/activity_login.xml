@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/daftar_beasiswa"
-    tools:context=".activity.register.RegisterActivity">
+    android:background="@drawable/login_page"
+    android:orientation="vertical"
+    tools:context=".login">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -16,16 +17,6 @@
             android:layout_height="55dp"
             android:hint="Nama Pengguna"
             android:layout_marginTop="280dp"
-            android:paddingLeft="28dp"
-            android:layout_gravity="center"
-            android:background="@drawable/lonjong_abuabu"
-            />
-        <EditText
-            android:id="@+id/edtEmail"
-            android:layout_width="330dp"
-            android:layout_height="55dp"
-            android:hint="Email"
-            android:layout_marginTop="15dp"
             android:paddingLeft="28dp"
             android:layout_gravity="center"
             android:background="@drawable/lonjong_abuabu"
@@ -42,18 +33,38 @@
             android:background="@drawable/lonjong_abuabu"
             />
         <Button
-            android:id="@+id/btnDaftarPage"
+            android:id="@+id/btnMasukPage"
             android:layout_width="330dp"
             android:layout_height="55dp"
             android:background="@drawable/lonjong"
-            android:text="Daftar"
+            android:text="Masuk"
             android:textSize="17sp"
             android:layout_gravity="center"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="20dp"
             android:textStyle="bold"
             android:textColor="#fff"
             android:textAllCaps="false"
             />
     </LinearLayout>
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="490dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belum punya akun? Klik" />
+        <TextView
+            android:id="@+id/txtDaftar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DAFTAR"
+            android:typeface="sans"
+            android:textColor="#3B8B92"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
 </RelativeLayout>
