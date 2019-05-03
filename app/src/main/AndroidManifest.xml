@@ -11,15 +11,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".activity.splash.MainActivity">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".activity.splash.Splashscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.register.RegisterActivity"/>
+        <activity android:name=".activity.register.RegisterActivity" />
         <activity android:name=".activity.login.LoginSign" />
         <activity android:name=".activity.intro.Splashscreen_logo" />
     </application>
+
 </manifest>
