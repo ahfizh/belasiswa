@@ -1,10 +1,13 @@
-package com.ujuy.ahfizh.belasiswa;
+package com.ujuy.ahfizh.belasiswa.activity;
 
 import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
+
+import com.ujuy.ahfizh.belasiswa.R;
+import com.ujuy.ahfizh.belasiswa.Splashscreen_logo;
 
 public class MainActivity extends AppCompatActivity {
     // ini untuk splashscreen

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Splashscreen_logo"
+    tools:context=".activity.intro.Splashscreen_logo"
     android:background="@drawable/splashscreen2_1">
 
     <Button
