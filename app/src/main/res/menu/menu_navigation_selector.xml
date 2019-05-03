@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/i_home"
+        android:id="@+id/naviigation_home"
         android:checked="true"
         android:icon="@drawable/ic_home_24px"
         android:title="@string/beranda" />
 
     <item
-        android:id="@+id/i_task"
+        android:id="@+id/navigation_task"
         android:icon="@drawable/ic_assignment_24px"
         android:title="@string/aktivitas" />
 
     <item
-        android:id="@+id/i_profile"
+        android:id="@+id/navigation_profile"
         android:icon="@drawable/ic_face_24px"
         android:title="@string/profile" />
 
