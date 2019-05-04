@@ -19,7 +19,7 @@ public class Pembayaran extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pembayaran);
 
-        btnlanjut = (Button) findViewById(R.id.btn_lanjut);
+        btnlanjut = findViewById(R.id.btn_lanjut);
         btnlanjut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
