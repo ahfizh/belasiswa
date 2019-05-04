@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.ujuy.ahfizh.belasiswa.activity.BottomNavigation.MainActivity;
@@ -42,5 +43,15 @@ public class login extends AppCompatActivity {
                 }
             }
         }));
+        ImageButton backArrow = (ImageButton)findViewById(R.id.tombolKembali);
+
+        backArrow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent (login.this, LoginSign.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 }

@@ -8,6 +8,20 @@
     android:orientation="vertical"
     tools:context=".activity.login.login">
     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ImageButton
+            android:id="@+id/tombolKembali"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/backarrow"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="35dp"
+            />
+    </LinearLayout>
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
