@@ -35,6 +35,7 @@
         android:layout_height="wrap_content"
         android:weightSum="10">
         <ImageView
+            android:id="@+id/subs2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/subtraction_1"
@@ -50,7 +51,7 @@
     <LinearLayout
         android:id="@+id/linearlayout2_donasi"
         android:layout_below="@id/relativelayout_imageslider"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="55dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:weightSum="20">
@@ -69,5 +70,12 @@
             android:layout_weight="10"/>
 
     </LinearLayout>
+
+    <ListView
+        android:layout_below="@id/linearlayout2_donasi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
 
 </RelativeLayout>

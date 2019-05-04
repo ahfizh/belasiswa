@@ -59,7 +59,6 @@
                 android:layout_height="70dp"
                 android:layout_marginTop="471dp"
                 android:layout_marginLeft="40dp"
-                android:backgroundTint=""
                 android:background="@drawable/persegipanjang_halus_border"
                 />
             <TextView
