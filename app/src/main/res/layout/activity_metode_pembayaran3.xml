@@ -4,13 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.MetodePembayaran">
+    tools:context=".activity.Pembayaran.MetodePembayaran">
     <RelativeLayout
+
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#fff"
-        tools:context=".activity.Pembayaran">
+        tools:context=".activity.Pembayaran.Pembayaran">
         <RelativeLayout
+            android:id="@+id/relativelayout_metodepembayaran"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -40,5 +42,12 @@
                 />
 
         </RelativeLayout>
+        <ListView
+            android:id="@+id/listView5"
+            android:layout_below="@id/relativelayout_metodepembayaran"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
     </RelativeLayout>
 </RelativeLayout>

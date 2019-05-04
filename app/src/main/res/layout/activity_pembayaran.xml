@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#fff"
-    tools:context=".activity.Pembayaran">
+    tools:context=".activity.Pembayaran.Pembayaran">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -106,9 +106,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:gravity="bottom"
-            >
+            android:gravity="bottom">
             <Button
+                android:id="@+id/btn_lanjut"
                 android:layout_width="match_parent"
                 android:layout_height="65dp"
                 android:background="@drawable/navbaratasgede"
@@ -123,6 +123,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <TextView
+                android:id="@+id/text_lanjut_pembayaran"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="bottom|center_horizontal"
@@ -131,8 +132,7 @@
                 android:typeface="sans"
                 android:textStyle="bold"
                 android:text="Lanjutkan Pembayaran"
-                android:textColor="#fff"
-                />
+                android:textColor="#fff" />
         </RelativeLayout>
     </RelativeLayout>
 </RelativeLayout>
