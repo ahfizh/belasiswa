@@ -21,6 +21,7 @@
                 android:layout_marginTop="300dp"
                 android:background="@drawable/detail_shape" />
             <TextView
+                android:id="@+id/txtJudul"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -33,6 +34,7 @@
                 android:typeface="sans"
                 />
             <TextView
+                android:id="@+id/tanggal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -52,12 +54,13 @@
                 android:background="@drawable/persegipanjang_halus_border"
                 />
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:id="@+id/imageDetailDonasi"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
                 android:layout_marginTop="471dp"
                 android:layout_marginLeft="40dp"
-                android:backgroundTint="#CCCCBB"
-                android:background="@drawable/profil_kosong"
+                android:backgroundTint=""
+                android:background="@drawable/persegipanjang_halus_border"
                 />
             <TextView
                 android:layout_width="match_parent"
@@ -97,6 +100,7 @@
                 android:layout_marginLeft="30dp"
                 />
             <TextView
+                android:id="@+id/isiTeksDetailDonasi"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempus non odio porttitor commodo. Proin sagittis metus et aliquet vulputate. Maecenas sit amet accumsan mi. Pellentesque ut eros vel turpis euismod semper. Quisque nibh nunc, efficitur quis metus vel, gravida dapibus augue. Praesent neque tortor, feugiat congue pulvinar vitae, sodales quis metus.\nSed urna velit, sagittis non euismod a, mollis et lectus. Vivamus dignissim dui ligula, sed elementum leo lobortis in. Suspendisse sed consectetur ex, non dignissim sapien. Nunc dapibus aliquet cursus. Phasellus scelerisque tellus quis mauris ultricies, ut aliquam quam convallis. Nunc aliquet scelerisque ligula, nec vehicula augue pharetra nec. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed feugiat sit amet felis a varius. Proin sit amet sem sed magna varius finibus vitae in ipsum."
@@ -144,25 +148,26 @@
                     android:layout_marginLeft="5dp"
                     />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal"
-                >
+                android:orientation="horizontal">
+
                 <ImageView
                     android:layout_width="28dp"
                     android:layout_height="30dp"
-                    android:background="@drawable/share"
-                    android:layout_marginTop="1010dp"
                     android:layout_marginLeft="80dp"
-                    />
+                    android:layout_marginTop="1010dp"
+                    android:background="@drawable/share" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Share Tentang Mereka"
-                    android:layout_marginTop="1012dp"
-                    android:textSize="18sp"
                     android:layout_marginLeft="10dp"
+                    android:layout_marginTop="1012dp"
+                    android:text="Share Tentang Mereka"
+                    android:textSize="18sp"
                     android:textStyle="bold" />
             </LinearLayout>
         </RelativeLayout>
