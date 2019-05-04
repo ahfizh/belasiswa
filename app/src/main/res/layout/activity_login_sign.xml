@@ -25,6 +25,7 @@
             android:textSize="16sp"
             android:layout_marginTop="450dp"
             android:layout_gravity="center"
+            android:onClick="keLogin"
             />
         <Button
             android:id="@+id/btnDaftarWelcome"
@@ -37,6 +38,7 @@
             android:textColor="#3B8B92"
             android:layout_marginTop="12dp"
             android:layout_gravity="center"
+            android:onClick="keDaftar"
             />
     </LinearLayout>
     <LinearLayout

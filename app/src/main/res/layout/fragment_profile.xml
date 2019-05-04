@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_profil">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="110dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:background="@drawable/profil_kosong" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ikhwan"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#49BCAD" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mahasiswa IPB University"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#b2bec3"
+            />
+    </LinearLayout>
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>

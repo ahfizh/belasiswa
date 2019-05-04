@@ -8,6 +8,7 @@ import android.widget.Button;
 
 import com.ujuy.ahfizh.belasiswa.MainActivity;
 import com.ujuy.ahfizh.belasiswa.R;
+import com.ujuy.ahfizh.belasiswa.activity.login.LoginSign;
 import com.ujuy.ahfizh.belasiswa.activity.register.RegisterActivity;
 
 public class Splashscreen_logo extends AppCompatActivity {
@@ -23,7 +24,7 @@ public class Splashscreen_logo extends AppCompatActivity {
         skip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent toRegisterActivity = new Intent(Splashscreen_logo.this, MainActivity.class);
+                Intent toRegisterActivity = new Intent(Splashscreen_logo.this, LoginSign.class);
                 startActivity(toRegisterActivity);
             }
         });
