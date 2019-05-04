@@ -50,18 +50,18 @@
     <LinearLayout
         android:id="@+id/linearlayout2_donasi"
         android:layout_below="@id/relativelayout_imageslider"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="35dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:weightSum="20">
-        <ImageButton
+        <ImageView
             android:id="@+id/imagebtn_donasi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/donasi"
             android:layout_weight="10"/>
 
-        <ImageButton
+        <ImageView
             android:id="@+id/imagebtn_daftar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
