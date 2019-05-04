@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ListView;
 
 import com.ujuy.ahfizh.belasiswa.R;
 import com.ujuy.ahfizh.belasiswa.activity.fragment.ImageSlider.ViewPagerAdapter;
@@ -33,6 +34,13 @@ public class FragmentKiri extends Fragment {
     @Override
     public void onViewCreated(View view,Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+
+        final ListView listView = (ListView) getActivity().findViewById(R.id.listView3);
+        String nama [] = {"Beasiswa 3 tahun" , "Beasiswa 10.000" ,"Beasiswa Mahasiswa" , "Beasiswa 6 bulan","Beasiswa 7000","Beasiswa 5000"};
+        String detail [] = {"Segera daftarkan diri anda","Segera daftarkan diri anda","Segera daftarkan diri anda","Segera daftarkan diri anda","Segera daftarkan diri anda","Segera daftarkan diri anda"};
+        int gambar [] = {R.drawable.terbaru1,R.drawable.terbaru2,R.drawable.terbaru3,R.drawable.terbaru4,R.drawable.terbaru2,R.drawable.terbaru1};
+        ListDetailRuangBeasiswa adapter = new ListDetailRuangBeasiswa(nama,detail,gambar,getActivity());
+        listView.setAdapter(adapter);
 
         viewPager = getActivity().findViewById(R.id.viewPager);
 

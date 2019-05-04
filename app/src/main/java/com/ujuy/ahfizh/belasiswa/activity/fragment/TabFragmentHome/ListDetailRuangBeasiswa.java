@@ -29,9 +29,9 @@ public class ListDetailRuangBeasiswa extends BaseAdapter{
     public View getView(int i, View view, ViewGroup viewGroup) {
 
         view = inflater.inflate(R.layout.activity_list_detail_terbaru, viewGroup, false);
-        TextView txtNama = (TextView) view.findViewById(R.id.list_item_title_text_view1);
-        TextView txtDetail = (TextView) view.findViewById(R.id.list_item_brief_desc_text_view1);
-        ImageView img = (ImageView) view.findViewById(R.id.list_item_image1);
+        TextView txtNama = view.findViewById(R.id.list_item_title_text_view1);
+        TextView txtDetail = view.findViewById(R.id.list_item_brief_desc_text_view1);
+        ImageView img = view.findViewById(R.id.list_item_image1);
 
 
         txtNama.setText(nama[i]);

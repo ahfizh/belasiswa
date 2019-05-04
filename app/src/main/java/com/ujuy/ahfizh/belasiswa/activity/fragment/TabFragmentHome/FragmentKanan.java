@@ -15,11 +15,11 @@ public class FragmentKanan extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater,  ViewGroup container,  Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_kanan,container,false);
-        final ListView listView = (ListView) getActivity().findViewById(R.id.listView2);
-        String nama [] = {"Baju" , "Celana" ,"Jaket" , "Topi"};
-        String detail [] = {"Merk Terbaru , ORIGINAL , LOCAL PRIDE","Merk baru , KW 10 , LOCAL PRIDE","Merk Terbaru , KW 5 , Luar PRIDE","Merk Terbaru , KW 2 , LOCAL PRIDE"};
-        int gambar [] = {R.drawable.baju,R.drawable.celana,R.drawable.jaket,R.drawable.topi};
-        ListDetailActivity adapter = new ListDetailActivity(nama,detail,gambar, this);
+        final ListView listView = view.findViewById(R.id.listView2);
+        String nama [] = {"Beasiswa Setahun" , "Beasiswa Australia" ,"Beasiswa Bali" , "Beasiswa Jakarta"};
+        String detail [] = {"Segera ikut beasiswa","Segera daftarkan diri anda","Segera daftarkan diri anda","Segera daftarkan diri anda"};
+        int gambar [] = {R.drawable.terbaru1,R.drawable.terbaru2,R.drawable.terbaru3,R.drawable.terbaru4};
+        ListDetailRuangBelajar adapter = new ListDetailRuangBelajar(nama,detail,gambar,getActivity());
         listView.setAdapter(adapter);
         return view;
     }
