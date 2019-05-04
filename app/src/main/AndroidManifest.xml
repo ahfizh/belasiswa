@@ -11,6 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".activity.MetodePembayaran"></activity>
         <activity android:name=".activity.Pembayaran" />
         <activity android:name=".activity.RiwayatDonasi" />
         <activity android:name=".activity.DetailDonasi" />
