@@ -6,8 +6,7 @@
     android:layout_height="match_parent">
 
 
-    <com.waleedsarwar.bottom.navigation.CustomViewPager
-
+    <com.ujuy.ahfizh.belasiswa.activity.BottomNavigation.CustomViewPager
         android:id="@+id/view_pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
@@ -16,14 +15,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        app:layout_behavior="com.ujuy.ahfizh.belasiswa.activity.BottomNavigation.BottomNavigationBehavior">
 
         <android.support.design.widget.TabLayout
             android:id="@+id/tab_layout"
             style="@style/AppTabLayout"
             android:layout_width="match_parent"
             android:layout_height="56dp"
-            android:background="?attr/colorPrimary" />
+            android:background="@color/colorWhite" />
     </LinearLayout>
 
 </android.support.design.widget.CoordinatorLayout>

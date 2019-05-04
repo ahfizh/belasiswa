@@ -9,7 +9,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
-import com.ujuy.ahfizh.belasiswa.activity.BottomNavigation.MainActivity;
+import com.ujuy.ahfizh.belasiswa.activity.MainActivity;
 import com.ujuy.ahfizh.belasiswa.R;
 
 public class login extends AppCompatActivity {
