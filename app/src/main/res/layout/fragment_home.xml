@@ -27,9 +27,27 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/logo_belasiswa"/>
 
+            <Button
+                android:id="@+id/btnSearch"
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/magnifier"
+                android:text="Cari Beasiswa"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="15dp"
+                android:textColor="#fff"
+                android:drawableRight="@drawable/search_edit"
+                android:drawableTint="#fff"
+                android:paddingRight="10dp"
+                android:drawablePadding="@android:dimen/app_icon_size"
+                android:textAllCaps="false"
+                />
         </android.support.v7.widget.Toolbar>
 
-        <android.support.design.widget.TabLayout
+        <TableLayout
             android:id="@+id/tabs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
