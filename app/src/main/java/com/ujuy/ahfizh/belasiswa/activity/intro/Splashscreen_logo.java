@@ -6,10 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.ujuy.ahfizh.belasiswa.MainActivity;
 import com.ujuy.ahfizh.belasiswa.R;
 import com.ujuy.ahfizh.belasiswa.activity.login.LoginSign;
-import com.ujuy.ahfizh.belasiswa.activity.register.RegisterActivity;
 
 public class Splashscreen_logo extends AppCompatActivity {
 

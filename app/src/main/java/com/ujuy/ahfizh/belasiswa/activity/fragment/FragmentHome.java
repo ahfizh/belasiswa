@@ -1,8 +1,6 @@
 package com.ujuy.ahfizh.belasiswa.activity.fragment;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
@@ -14,6 +12,22 @@ import com.ujuy.ahfizh.belasiswa.R;
 import com.ujuy.ahfizh.belasiswa.activity.fragment.TabFragmentHome.SectionsPageAdapter;
 
 public class FragmentHome extends Fragment {
+    public static final String ARG_PAGE = "ARG_PAGE";
+    private int mPageNo;
+
+    public static FragmentHome newInstance(int pageNo) {
+
+        Bundle args = new Bundle();
+        args.putInt(ARG_PAGE, pageNo);
+        FragmentHome fragment = new FragmentHome();
+        fragment.setArguments(args);
+        return fragment;
+    }
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        mPageNo = getArguments().getInt(ARG_PAGE);
+    }
     ViewPager simpleViewPager;
     TabLayout tabLayout;
     SectionsPageAdapter pagerAdapter;
