@@ -30,16 +30,16 @@
     <LinearLayout
         android:id="@+id/linearlayout_donasi"
         android:layout_below="@id/relativelayout_imageslider"
-        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:weightSum="10">
+
         <ImageView
             android:id="@+id/subs2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/subtraction_1"
-            android:layout_weight="5"/>
+            android:layout_weight="5"
+            android:src="@drawable/subtraction_1" />
 
         <ImageView
             android:layout_width="wrap_content"
@@ -51,7 +51,7 @@
     <LinearLayout
         android:id="@+id/linearlayout2_donasi"
         android:layout_below="@id/relativelayout_imageslider"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="40dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:weightSum="20">
@@ -71,10 +71,20 @@
 
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/textView_terbaru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/linearlayout2_donasi"
+        android:text="Terbaru"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
     <ListView
         android:id="@+id/listView3"
-        android:layout_marginTop="30dp"
-        android:layout_below="@id/linearlayout2_donasi"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/textView_terbaru"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
