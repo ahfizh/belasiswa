@@ -9,8 +9,11 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
 
 import com.ujuy.ahfizh.belasiswa.R;
+import com.ujuy.ahfizh.belasiswa.activity.fragment.RiwayatTask.ListDetailRiwayat;
+import com.ujuy.ahfizh.belasiswa.activity.fragment.TabFragmentHome.ListDetailRuangBelajar;
 import com.ujuy.ahfizh.belasiswa.activity.fragment.TabFragmentHome.SectionsPageAdapter;
 
 public class FragmentTask extends Fragment {
@@ -34,10 +37,15 @@ public class FragmentTask extends Fragment {
 
     @Nullable
     @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_task, container, false);
-
-
+        final ListView listView = view.findViewById(R.id.listView4);
+        String nama [] = {"Beasiswa Setahun" , "Beasiswa Australia" ,"Beasiswa Bali" , "Beasiswa Jakarta","Beasiswa Agoda","Beasiswa Go-Jek","Beasiswa Grab","Beasiswa Traveloka","Beasiswa Tiket.com"};
+        String alamat [] = {"Bogor","Jakarta","Karawang","Bali" ,"Bali","Kalimantan","Bogor" , "Semarang" ,"Jakarta"};
+        String detail [] = {"Besar Donasi Rp.1000.000" , "Besar Donasi Rp.100.000" ,"Besar Donasi Rp.10000" , "Besar Donasi Rp.2000.000"
+                ,"Besar Donasi Rp.300.000","Besar Donasi Rp.3000.000" , "Besar Donasi Rp.1000.000" , "Besar Donasi Rp.2000.000" ,"Besar Donasi Rp.4000.000"};
+        ListDetailRiwayat adapter = new ListDetailRiwayat(nama,alamat,detail,getActivity());
+        listView.setAdapter(adapter);
         return view;
     }
 }

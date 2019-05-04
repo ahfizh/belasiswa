@@ -17,7 +17,6 @@ import com.ujuy.ahfizh.belasiswa.activity.fragment.FragmentHome;
 import com.ujuy.ahfizh.belasiswa.activity.fragment.FragmentProfile;
 import com.ujuy.ahfizh.belasiswa.activity.fragment.FragmentTask;
 
-import static com.ujuy.ahfizh.belasiswa.R.color.colorPrimary;
 
 
 public class MainActivity extends AppCompatActivity {
