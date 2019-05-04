@@ -43,14 +43,16 @@
                 android:drawableTint="#fff"
                 android:paddingRight="10dp"
                 android:drawablePadding="@android:dimen/app_icon_size"
-                android:textAllCaps="false"
-                />
+                android:textAllCaps="false" />
+
         </android.support.v7.widget.Toolbar>
 
-        <TableLayout
+        <android.support.design.widget.TabLayout
             android:id="@+id/tabs"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            app:tabTextColor="@color/colorAccent"
+            android:background="@color/colorWhite"/>
 
     </android.support.design.widget.AppBarLayout>
 

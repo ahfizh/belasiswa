@@ -29,5 +29,6 @@ public class FragmentHome extends Fragment {
         tabLayout.setupWithViewPager(simpleViewPager);
 
         return view;
-}
+
+    }
 }
