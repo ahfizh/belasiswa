@@ -16,18 +16,13 @@
         <activity android:name=".activity.Pembayaran.Pembayaran" />
         <activity android:name=".activity.DetailDonasi" />
         <activity android:name=".activity.login.login" />
-        <activity android:name=".activity.splash.Splashscreen_logo_2" >
-
+        <activity android:name=".activity.MainActivity"/>
+        <activity android:name=".activity.splash.Splashscreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.MainActivity">
-
-        </activity>
-        <activity android:name=".activity.splash.Splashscreen" />
         <activity android:name=".activity.register.RegisterActivity" />
         <activity android:name=".activity.login.LoginSign" />
         <activity android:name=".activity.intro.Splashscreen_logo" />

@@ -1,5 +1,6 @@
 package com.ujuy.ahfizh.belasiswa.activity.fragment.TabFragmentHome;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
@@ -7,12 +8,16 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 
 import com.ujuy.ahfizh.belasiswa.R;
+import com.ujuy.ahfizh.belasiswa.activity.Pembayaran.Pembayaran;
 import com.ujuy.ahfizh.belasiswa.activity.fragment.ImageSlider.ViewPagerAdapter;
+import com.ujuy.ahfizh.belasiswa.activity.login.LoginSign;
+import com.ujuy.ahfizh.belasiswa.activity.register.RegisterActivity;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -34,6 +39,16 @@ public class FragmentKiri extends Fragment {
     @Override
     public void onViewCreated(View view,Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+
+        ImageView donasi = view.findViewById(R.id.imagebtn_donasi);
+
+        donasi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Pembayaran.class);
+                startActivity(intent);
+            }
+        });
 
         final ListView listView = (ListView) getActivity().findViewById(R.id.listView3);
         String nama [] = {"Beasiswa 3 tahun" , "Beasiswa 10.000" ,"Beasiswa Mahasiswa" , "Beasiswa 6 bulan","Beasiswa 7000","Beasiswa 5000"};

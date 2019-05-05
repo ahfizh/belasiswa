@@ -17,16 +17,16 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ikhwan"
+            android:text="a'ah dev"
             android:gravity="center"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="40dp"
             android:textSize="25sp"
             android:textStyle="bold"
             android:textColor="#49BCAD" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Mahasiswa IPB University"
+            android:text="a'ah dev@gmail.com"
             android:textStyle="bold"
             android:typeface="sans"
             android:textSize="20sp"

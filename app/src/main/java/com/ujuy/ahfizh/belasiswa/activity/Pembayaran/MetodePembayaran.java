@@ -6,10 +6,12 @@ import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Toast;
 
 import com.ujuy.ahfizh.belasiswa.R;
+import com.ujuy.ahfizh.belasiswa.activity.MainActivity;
 import com.ujuy.ahfizh.belasiswa.activity.Pembayaran.MetodetPembayaran.ListDetailRuangMetodePembayaran;
 
 public class MetodePembayaran extends AppCompatActivity {
@@ -57,6 +59,17 @@ public class MetodePembayaran extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(),"Pilih Salah Satu",Toast.LENGTH_SHORT).show();
                 }
 
+            }
+        });
+
+        ImageView backArrowmet = findViewById(R.id.backarrowmetode);
+
+        backArrowmet.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MetodePembayaran.this, Pembayaran.class);
+                startActivity(intent);
+                finish();
             }
         });
     }

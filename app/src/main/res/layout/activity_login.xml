@@ -22,32 +22,46 @@
             />
     </LinearLayout>
     <LinearLayout
+        android:layout_marginTop="250dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-        <EditText
-            android:id="@+id/edtUsername"
-            android:layout_width="330dp"
-            android:layout_height="55dp"
-            android:hint="Nama Pengguna"
-            android:layout_marginTop="280dp"
-            android:paddingLeft="28dp"
-            android:layout_gravity="center"
-            android:background="@drawable/lonjong_abuabu"
-            />
-        <EditText
-            android:id="@+id/edtPass"
-            android:layout_width="330dp"
-            android:layout_height="55dp"
-            android:hint="Kata Sandi"
-            android:layout_marginTop="15dp"
-            android:inputType="textPassword"
-            android:paddingLeft="28dp"
-            android:layout_gravity="center"
-            android:background="@drawable/lonjong_abuabu"
-            />
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/ti_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/persegipanjang_asli"
+            android:layout_below="@+id/img_logo"
+            android:layout_marginTop="@dimen/child_margin_top">
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/ti_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ti_email"
+            android:background="@drawable/persegipanjang_asli"
+            android:layout_marginTop="@dimen/child_margin_top"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+        </android.support.design.widget.TextInputLayout>
         <Button
-            android:id="@+id/btnMasukPage"
+            android:id="@+id/btn_login"
             android:layout_width="330dp"
             android:layout_height="55dp"
             android:background="@drawable/lonjong"
@@ -68,6 +82,7 @@
         android:gravity="center_horizontal"
         >
         <TextView
+            android:id="@+id/tv_register"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Belum punya akun? Klik" />

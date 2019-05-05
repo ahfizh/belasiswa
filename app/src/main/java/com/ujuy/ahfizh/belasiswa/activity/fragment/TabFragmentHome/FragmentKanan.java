@@ -16,8 +16,8 @@ public class FragmentKanan extends Fragment {
     public View onCreateView(LayoutInflater inflater,  ViewGroup container,  Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_kanan,container,false);
         final ListView listView = view.findViewById(R.id.listView2);
-        String nama [] = {"Beasiswa Setahun" , "Beasiswa Australia" ,"Beasiswa Bali" , "Beasiswa Jakarta"};
-        String detail [] = {"Segera ikut beasiswa","Segera daftarkan diri anda","Segera daftarkan diri anda","Segera daftarkan diri anda"};
+        String nama [] = {"Belajar Matematika" , "Belajar Biologi" ,"Belajar Fisika" , "Belajar Kimia"};
+        String detail [] = {"Segera ikut belajar","Segera ikut belajar","Segera ikut belajar","Segera ikut belajar"};
         int gambar [] = {R.drawable.terbaru1,R.drawable.terbaru2,R.drawable.terbaru3,R.drawable.terbaru4};
         ListDetailRuangBelajar adapter = new ListDetailRuangBelajar(nama,detail,gambar,getActivity());
         listView.setAdapter(adapter);

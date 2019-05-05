@@ -8,6 +8,7 @@ import android.widget.ImageView;
 
 import com.ujuy.ahfizh.belasiswa.R;
 import com.ujuy.ahfizh.belasiswa.activity.intro.Splashscreen_logo;
+import com.ujuy.ahfizh.belasiswa.activity.login.LoginSign;
 
 
 public class Splashscreen extends AppCompatActivity {
@@ -24,7 +25,7 @@ public class Splashscreen extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(Splashscreen.this, Splashscreen_logo.class);
+                Intent intent = new Intent(Splashscreen.this, LoginSign.class);
                 startActivity(intent);
                 finish();
             }

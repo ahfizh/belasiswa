@@ -23,6 +23,7 @@
                 android:background="@drawable/navbaratasgede"
                 />
             <ImageView
+                android:id="@+id/backarrowmetode"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
                 android:layout_marginLeft="20dp"
