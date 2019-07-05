@@ -50,7 +50,7 @@ public class FragmentKiri extends Fragment {
             }
         });
 
-        final ListView listView = (ListView) getActivity().findViewById(R.id.listView3);
+        final ListView listView = getActivity().findViewById(R.id.listView3);
         String nama [] = {"Beasiswa 3 tahun" , "Beasiswa 10.000" ,"Beasiswa Mahasiswa" , "Beasiswa 6 bulan","Beasiswa 7000","Beasiswa 5000"};
         String detail [] = {"Segera daftarkan diri anda","Segera daftarkan diri anda","Segera daftarkan diri anda","Segera daftarkan diri anda","Segera daftarkan diri anda","Segera daftarkan diri anda"};
         int gambar [] = {R.drawable.terbaru1,R.drawable.terbaru2,R.drawable.terbaru3,R.drawable.terbaru4,R.drawable.terbaru2,R.drawable.terbaru1};

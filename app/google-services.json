@@ -8,6 +8,43 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:570921728332:android:2e657734f5ee2309",
+        "android_client_info": {
+          "package_name": "com.belasiswa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570921728332-nvkms7ujpmi60515npn3gjes7gagi507.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.belasiswa",
+            "certificate_hash": "c55c8769accb427d763b4ab97608d23f75a41f31"
+          }
+        },
+        {
+          "client_id": "570921728332-f2g6is9hq398ccksjs06fi64k2o4mg8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdJqMN3_UWwtF3_lCGbsK5-IguC4DHtKQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "570921728332-f2g6is9hq398ccksjs06fi64k2o4mg8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:570921728332:android:25d92de7614eda74",
         "android_client_info": {
           "package_name": "com.ujuy.ahfizh.belasiswa"

@@ -15,10 +15,6 @@ import android.view.animation.Interpolator;
 
 import com.ujuy.ahfizh.belasiswa.R;
 
-/**
- * @author Waleed Sarwar
- * @since September 28, 2016 11:50 AM
- */
 public class BottomNavigationBehavior<V extends View> extends VerticalScrollingBehavior<V> {
     private static final Interpolator INTERPOLATOR = new LinearOutSlowInInterpolator();
     private int mTabLayoutId;
